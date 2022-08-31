@@ -1,0 +1,94 @@
+date
+Mon Apr 5 17:56:27 UTC 2021
+
+hostname
+ip-172-31-93-200
+
+architecture
+x86_64
+
+uname -a
+Linux ip-172-31-93-200 5.4.0-1038-aws #40-Ubuntu SMP
+Fri Feb 5 23:50:40 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+
+uptime
+17:56:27 up 21 days, 20:35, 6 users, load average: 0.00, 0.00, 0.00
+
+Who Am I?
+jonathongrealish
+
+Which Users Are Active?
+endalynch                pts/0        2021-04-05 00:51   (86.40.219.7)
+magdalenamalik           pts/1        2021-04-05 10:48   (37.228.254.45)
+caioforteribeiro         pts/2        2021-04-05 17:36   (37.228.212.144)
+lonankeane               pts/3        2021-04-05 17:53   (95.44.18.130)
+jonathongrealish         pts/4        2021-04-05 16:11   (80.233.59.209)
+conormccaffrey           pts/7        2021-04-05 14:01   (109.79.11.153)
+
+User Information
+Login             Name    Tty      Idle  Login Time   Office         Office Phone
+caioforteribeiro          pts/2       2  Apr 5 17:36 (37.228.212.144)
+conormccaffrey            pts/7      15  Apr 5 14:01 (109.79.11.153)
+endalynch                 pts/0          Apr 5 00:51 (86.40.219.7)
+jonathongrealish          pts/4          Apr 5 16:11 (80.233.59.209)
+lonankeane                pts/3       2  Apr 5 17:53 (95.44.18.130)
+magdalenamalik            pts/1    1:42  Apr 5 10:48 (37.228.254.45)
+
+User Summary
+17:56:27 up 21 days, 20:35, 6 users, load average: 0.00, 0.00, 0.00
+USER      TTY      FROM             LOGIN@   IDLE   JCPU   PCPU  WHAT
+endalync  pts/0    86.40.219.7      00:51   27.00s  0.15s  0.04s vim student.sh
+magdalen  pts/1    37.228.254.45    10:48    1:42   0.09s  0.09s -bash
+caiofort  pts/2    37.228.212.144   17:36    2:29   0.04s  0.04s -bash
+lonankea  pts/3    95.44.18.130     17:53    2:08   0.03s  0.01s vim
+jonathon  pts/4    80.233.59.209    16:11    3.00s  0.13s  0.00s w
+conormcc  pts/7    109.79.11.153    14:01   15:14   0.32s  0.00s lynx
+
+Real-Time System Information
+top - 17:56:27 up 21 days, 20:35, 6 users, load average: 0.00, 0.00, 0.00
+Tasks: 128 total, 1 running, 126 sleeping, 0 stopped, 1 zombie
+%Cpu(s): 0.0 us, 0.0 sy,  0.0 ni, 93.8 id, 0.0 wa, 0.0 hi, 0.0 si, 0.0 s
+MiB Mem: 978.6 total, 98.1 free, 283.5 used, 597.0 buff/cache
+MiB Swap: 0.0 total, 0.0 free,  0.0 used. 522.4 avail Mem
+
+PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM    TIME+  COMMAND
+10  root      20   0       0      0      0 S   0.0   0.0   0:35:72 ksoftirqd+
+11  root      20   0       0      0      0 I   0.0   0.0   0:44:00 rcu_sched
+12  root      rt   0       0      0      0 S   0.0   0.0   0:10:10 migration+
+13  root      20   0       0      0      0 S   0.0   0.0   0:00:00 cpuhp/0
+14  root      20   0       0      0      0 S   0.0   0.0   0:00:00 kdevtmpfs
+15  root       0 -20       0      0      0 I   0.0   0.0   0:00:00 netns
+16  root      20   0       0      0      0 S   0.0   0.0   0:00:00 rcu_tasks+
+17  root      20   0       0      0      0 S   0.0   0.0   0:00:00 kauditd
+18  root      20   0       0      0      0 S   0.0   0.0   0:00:00 xenbus
+19  root      20   0       0      0      0 S   0.0   0.0   0:00:01 xenwatch
+20  root      20   0       0      0      0 S   0.0   0.0   0:00:58 khungtaskd
+21  root      20   0       0      0      0 S   0.0   0.0   0:00:00 oom_reaper
+22  root       0 -20       0      0      0 I   0.0   0.0   0:00:00 writeback
+23  root      20   0       0      0      0 S   0.0   0.0   0:00:02 kcompactd0
+24  root      25   5       0      0      0 S   0.0   0.0   0:00:00 ksmd
+25  root      39  19       0      0      0 S   0.0   0.0   0:04:20 khugepaged
+71  root       0 -20       0      0      0 I   0.0   0.0   0:00:00 kintegrit+
+72  root       0 -20       0      0      0 I   0.0   0.0   0:00:00 kblockd
+73  root       0 -20       0      0      0 I   0.0   0.0   0:00:00 blkcg_pun+
+74  root       0 -20       0      0      0 I   0.0   0.0   0:00:00 tpm_dev_wq
+75  root       0 -20       0      0      0 I   0.0   0.0   0:00:00 ata_sff
+76  root       0 -20       0      0      0 I   0.0   0.0   0:00:00 md
+77  root       0 -20       0      0      0 I   0.0   0.0   0:00:00 edac-poll+
+78  root       0 -20       0      0      0 I   0.0   0.0   0:00:00 devfreq_wq
+79  root      rt   0       0      0      0 S   0.0   0.0   0:00:00 watchdogd
+82  root      20   0       0      0      0 S   0.0   0.0   0:04:92 kswapd0
+83  root      20   0       0      0      0 S   0.0   0.0   0:00:00 ecryptfs-+
+85  root       0 -20       0      0      0 I   0.0   0.0   0:00:00 kthrotld
+86  root       0 -20       0      0      0 I   0.0   0.0   0:00:00 nvme-wq
+87  root       0 -20       0      0      0 I   0.0   0.0   0:00:00 nvme-rese
+
+History
+  1  vim jonathongrealish.sh
+  2  vimtutor
+  3  vim jonathongrealish.sh
+  4  vim jonathongrealish.txt
+  5  bash jonathongrealish.sh
+  6  vim jonathongrealish.txt
+
+"jonathongrealish.txt" 92L, 4757C                              1,1     Top
